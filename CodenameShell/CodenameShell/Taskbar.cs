@@ -15,5 +15,14 @@ namespace CodenameShell
         {
             InitializeComponent();
         }
+
+        private void Start_Click(object sender, EventArgs e)
+        {
+            Point btnPosition = PointToScreen(this.start.Location);
+
+            Point startPoint = new Point(btnPosition.X, btnPosition.Y + this.start.Height);
+
+            this.contextMenuStrip1.Show(startPoint);
+        }
     }
 }
