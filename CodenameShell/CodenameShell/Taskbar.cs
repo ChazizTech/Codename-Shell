@@ -48,5 +48,11 @@ namespace CodenameShell
         {
             Process.Start("taskmgr.exe");
         }
+
+        private void shutdownToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Shell shutdownPrompt = new.shutdownPrompt;
+            shutdownPrompt.Show();
+        }
     }
 }
