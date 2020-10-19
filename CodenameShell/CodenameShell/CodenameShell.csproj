@@ -44,6 +44,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="NativeHelpers.cs" />
+    <Compile Include="NativeMethods.cs" />
     <Compile Include="Taskbar.cs">
       <SubType>Form</SubType>
     </Compile>

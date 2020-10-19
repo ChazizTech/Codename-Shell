@@ -48,10 +48,10 @@
             // 
             // start
             // 
-            this.start.BackColor = System.Drawing.SystemColors.Desktop;
+            this.start.BackColor = System.Drawing.Color.Transparent;
             this.start.Location = new System.Drawing.Point(0, 27);
             this.start.Name = "start";
-            this.start.Size = new System.Drawing.Size(54, 25);
+            this.start.Size = new System.Drawing.Size(54, 48);
             this.start.TabIndex = 0;
             this.start.Text = "Start";
             this.start.UseVisualStyleBackColor = false;
@@ -90,12 +90,12 @@
             this.taskManagerToolStripMenuItem});
             this.taskbarRightClick.Name = "taskbarRightClick";
             this.taskbarRightClick.OwnerItem = this.insertProgramsHereLaterToolStripMenuItem;
-            this.taskbarRightClick.Size = new System.Drawing.Size(147, 26);
+            this.taskbarRightClick.Size = new System.Drawing.Size(149, 26);
             // 
             // taskManagerToolStripMenuItem
             // 
             this.taskManagerToolStripMenuItem.Name = "taskManagerToolStripMenuItem";
-            this.taskManagerToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
+            this.taskManagerToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
             this.taskManagerToolStripMenuItem.Text = "Task Manager";
             this.taskManagerToolStripMenuItem.Click += new System.EventHandler(this.TaskManagerToolStripMenuItem_Click);
             // 
@@ -135,21 +135,21 @@
             // taskManagerToolStripMenuItem1
             // 
             this.taskManagerToolStripMenuItem1.Name = "taskManagerToolStripMenuItem1";
-            this.taskManagerToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.taskManagerToolStripMenuItem1.Size = new System.Drawing.Size(148, 22);
             this.taskManagerToolStripMenuItem1.Text = "Task Manager";
             this.taskManagerToolStripMenuItem1.Click += new System.EventHandler(this.taskManagerToolStripMenuItem1_Click);
             // 
             // runToolStripMenuItem1
             // 
             this.runToolStripMenuItem1.Name = "runToolStripMenuItem1";
-            this.runToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.runToolStripMenuItem1.Size = new System.Drawing.Size(148, 22);
             this.runToolStripMenuItem1.Text = "Run";
             // 
             // Shell
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(711, 54);
+            this.ClientSize = new System.Drawing.Size(711, 74);
             this.ContextMenuStrip = this.taskbarRightClick;
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.start);
